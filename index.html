@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Booth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="luxury-title">Lustré Photobooth</h1>
+
+    <div class="container">
+        <video id="video" autoplay></video>
+
+        <button id="capture">📸 Capture</button>
+
+      <div class="background-options">
+            <label for="bg-color">🎨 Select Photo Strip Background:</label>
+            <input type="color" id="bg-color">
+        </div>
+      
+      <div class="layout-options">
+            <label>📸 Select Layout:</label>
+        <div class="layout-buttons">
+            <button data-layout="1">1 Photo</button>
+            <button data-layout="2">2 Photos</button>
+            <button data-layout="3">3 Photos</button>
+            <button data-layout="4">4 Photos</button>
+        </div>
+
+        <div class="filter-options">
+            <input type="checkbox" id="filter-toggle">
+            <label id="filter-label" for="filter-toggle">Normal / <span style="font-weight: bold;">B&W</span></label>
+        </div>
+
+        <div class="photo-strip-container">
+            <canvas id="photo-strip"></canvas>
+        </div>
+
+        <button id="download">⬇ Download Photo Strip</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
