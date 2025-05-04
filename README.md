@@ -30,7 +30,7 @@ Hey there! Welcome to **Lustré Photobooth**, an elegant and easy-to-use online 
 ---
 
 ## 🌐 Try It Out!  
-🔗 https://asmitatawar.github.io/lustrebooth/
+🔗 https://asmitatawar.github.io/Lustrebooth/
 
 ---
 
